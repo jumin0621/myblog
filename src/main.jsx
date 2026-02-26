@@ -8,7 +8,7 @@ import GlobalAlert from "./components/common/GlobalAlert.jsx";
 
 createRoot(document.getElementById("root")).render(
 	<StrictMode>
-		<BrowserRouter>
+		<BrowserRouter basename="/myblog">
 			<ThemeWrapper>
 				<AuthProvider>
 					<App />
